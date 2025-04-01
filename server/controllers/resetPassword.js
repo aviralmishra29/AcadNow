@@ -24,7 +24,7 @@ exports.resetPasswordToken = async (req, res) => {
     )
     console.log("DETAILS", updatedDetails)
 
-    const url = `https://acad-now-aviral-mishras-projects-8a2d96e9.vercel.app/update-password/${token}`
+    const url = `https://acad-now-aviral-mishras-projects-8a2d96e9.vercel.app/api/v1/update-password/${token}`
     // const url = `https://studynotion-edtech-project.vercel.app/update-password/${token}`
 
     await mailSender(
